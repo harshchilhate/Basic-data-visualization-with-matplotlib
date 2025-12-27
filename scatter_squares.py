@@ -23,4 +23,6 @@ ax.tick_params(labelsize = 14)
 ax.axis([0, 1100, 0, 1_100_00])
 ax.ticklabel_format(style='plain')
 
+plt.savefig("square_numbers.png", bbox_inches='tight')
+
 plt.show()
