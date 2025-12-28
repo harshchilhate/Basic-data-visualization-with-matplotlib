@@ -3,7 +3,7 @@ import plotly.express as px
 from die import Die
 
 #Create a die of 6 side
-die = Die(81)
+die = Die()
 
 #Make some rolls, and store results in a list.
 results = []
